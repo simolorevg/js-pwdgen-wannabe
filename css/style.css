@@ -1,0 +1,21 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*COMMON*/
+body{
+    background-image: url(../img/background.jpg);
+    font-family: 'Inconsolata', monospace;
+}
+/*LAYOUT*/
+.password-container{
+    margin: 20px auto;
+    color: lime;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
